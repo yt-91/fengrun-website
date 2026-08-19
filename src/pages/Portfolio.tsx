@@ -61,7 +61,7 @@ export default function Portfolio() {
       <section className="mx-auto max-w-6xl px-6 pb-16 md:px-8">
         <div className="relative overflow-hidden px-10 py-14 text-white md:px-14" style={{ background: INDIGO }}>
           <img
-            src="/images/low-altitude.jpg"
+            src="./images/low-altitude.jpg"
             alt="低空经济"
             className="absolute inset-0 h-full w-full object-cover opacity-30"
           />

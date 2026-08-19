@@ -41,28 +41,28 @@ export const coreTracks: Track[] = [
     en: 'LIFE SCIENCE',
     desc: '聚焦生命科学领域，关注创新药物研发、医疗器械等方向，以满足医疗健康领域未被满足的需求，推动行业技术进步。',
     subs: ['创新药物研发', '医疗器械', '医疗服务', '基因检测'],
-    image: '/images/track-lifesci.jpg',
+    image: './images/track-lifesci.jpg',
   },
   {
     name: '绿色低碳',
     en: 'GREEN & LOW-CARBON',
     desc: '围绕绿色低碳产业，投资新能源、节能环保、碳减排技术等项目，助力实现「双碳」目标，推动可持续发展。',
     subs: ['新能源发电', '储能技术', '节能环保材料', '污染治理'],
-    image: '/images/track-green.jpg',
+    image: './images/track-green.jpg',
   },
   {
     name: '先进制造',
     en: 'ADVANCED MANUFACTURING',
     desc: '专注先进制造领域，涵盖智能制造、高端装备、新材料等方向，通过技术创新提升制造业核心竞争力，促进产业升级。',
     subs: ['智能制造', '高端装备', '新材料'],
-    image: '/images/track-mfg.jpg',
+    image: './images/track-mfg.jpg',
   },
   {
     name: '数字科技',
     en: 'DIGITAL TECH',
     desc: '布局数字科技领域，包括人工智能、大数据、云计算等，把握数字经济发展机遇，赋能传统产业数字化转型。',
     subs: ['人工智能', '大数据', '云计算', '量子科技', '新一代信息技术'],
-    image: '/images/track-digital.jpg',
+    image: './images/track-digital.jpg',
   },
 ]
 
@@ -127,35 +127,35 @@ export const news: NewsItem[] = [
     category: '投资动态',
     title: '锋润基业领投珩昱生物天使轮 800 万元',
     summary: '一期基金最大单笔投资落地生命科学赛道，资金将用于外泌体药物递送平台的管线推进与团队扩建。',
-    image: '/images/track-lifesci.jpg',
+    image: './images/track-lifesci.jpg',
   },
   {
     date: '2026-05-27',
     category: '投资动态',
     title: '一期基金完成五单天使投资，累计出资 1500 万元',
     summary: '覆盖储能、低空物流、高端装备、工业 AI 与污染治理方向，四大核心赛道布局初步成形。',
-    image: '/images/track-digital.jpg',
+    image: './images/track-digital.jpg',
   },
   {
     date: '2026-02-06',
     category: '基金动态',
     title: '锋润基业一期投资基金完成 8000 万元募资',
     summary: '一期基金将重点投向生命科学、绿色低碳、先进制造与数字科技四大方向的天使轮科技项目。',
-    image: '/images/about-signing.jpg',
+    image: './images/about-signing.jpg',
   },
   {
     date: '2026-02-06',
     category: '机构动态',
     title: '与沪浙苏多地高精尖产业园区达成深度合作',
     summary: '为初创企业打通产业资源对接渠道，助力被投企业融入长三角产业生态。',
-    image: '/images/track-mfg.jpg',
+    image: './images/track-mfg.jpg',
   },
   {
     date: '2022-01-01',
     category: '机构动态',
     title: '南京锋润基业创业投资有限公司正式成立',
     summary: '公司落户南京市建邺区白龙江东街 9 号，注册资本 5000 万元，确立「智汇资本，创造价值」的投资使命。',
-    image: '/images/hero-nanjing.jpg',
+    image: './images/hero-nanjing.jpg',
   },
 ]
 
@@ -185,7 +185,7 @@ export const cases: InvestCase[] = [
     amount: '800 万元',
     year: 2026,
     desc: '基于外泌体工程化改造的靶向药物递送平台，核心团队来自中国药科大学，首个管线已完成动物实验验证。',
-    image: '/images/track-lifesci.jpg',
+    image: './images/track-lifesci.jpg',
     highlight: true,
   },
   {
@@ -194,7 +194,7 @@ export const cases: InvestCase[] = [
     amount: '300 万元',
     year: 2026,
     desc: '铁铬液流电池长时储能系统，面向园区级源网荷储场景，首个示范项目已并网运行。',
-    image: '/images/track-green.jpg',
+    image: './images/track-green.jpg',
   },
   {
     name: '瞰宇航空',
@@ -202,7 +202,7 @@ export const cases: InvestCase[] = [
     amount: '300 万元',
     year: 2025,
     desc: '中大型物流无人机研发与低空航线运营，已在苏南地区开通两条常态化配送航线。',
-    image: '/images/low-altitude.jpg',
+    image: './images/low-altitude.jpg',
   },
   {
     name: '柘光装备',
@@ -210,7 +210,7 @@ export const cases: InvestCase[] = [
     amount: '300 万元',
     year: 2025,
     desc: '半导体封装精密装备核心部件国产化，重复定位精度达亚微米级，已进入头部封测厂供应链。',
-    image: '/images/track-mfg.jpg',
+    image: './images/track-mfg.jpg',
   },
   {
     name: '知微智检',
@@ -218,7 +218,7 @@ export const cases: InvestCase[] = [
     amount: '300 万元',
     year: 2026,
     desc: '基于多模态大模型的工业表面缺陷检测系统，检测准确率超 99.5%，落地 3C 与新能源产线。',
-    image: '/images/track-digital.jpg',
+    image: './images/track-digital.jpg',
   },
   {
     name: '澄源环保',
@@ -226,7 +226,7 @@ export const cases: InvestCase[] = [
     amount: '300 万元',
     year: 2025,
     desc: '高盐工业废水资源化与零排放工艺包，帮助化工园区客户降低 40% 综合治污成本。',
-    image: '/images/track-green.jpg',
+    image: './images/track-green.jpg',
   },
 ]
 

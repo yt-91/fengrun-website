@@ -56,7 +56,7 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-6 pb-20 md:px-8">
         <div className="anim-fade-up overflow-hidden border border-neutral-300">
           <img
-            src="/images/hero-nanjing.jpg"
+            src="./images/hero-nanjing.jpg"
             alt="南京城市意象"
             className="h-[22rem] w-full object-cover transition duration-700 hover:scale-[1.02] md:h-[26rem]"
           />

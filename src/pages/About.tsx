@@ -21,7 +21,7 @@ export default function About() {
       <section className="mx-auto max-w-6xl px-6 pt-8 md:px-8">
         <div className="overflow-hidden border border-neutral-300">
           <img
-            src="/images/about-signing.jpg"
+            src="./images/about-signing.jpg"
             alt="锋润基业 · 签约场景"
             className="h-64 w-full object-cover transition duration-700 hover:scale-[1.02] md:h-80"
           />
