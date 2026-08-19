@@ -31,7 +31,6 @@ export default function SiteFooter() {
                 ['/', '首页'],
                 ['/about', '关于锋润'],
                 ['/portfolio', '投资领域'],
-                ['/team', '核心团队'],
                 ['/news', '新闻动态'],
                 ['/contact', '联络我们'],
               ].map(([to, label]) => (

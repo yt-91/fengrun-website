@@ -5,7 +5,6 @@ import SiteFooter from '@/components/SiteFooter'
 import Home from '@/pages/Home'
 import About from '@/pages/About'
 import Portfolio from '@/pages/Portfolio'
-import Team from '@/pages/Team'
 import News from '@/pages/News'
 import Contact from '@/pages/Contact'
 import { PAPER } from '@/lib/brand'
@@ -28,7 +27,6 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/team" element={<Team />} />
           <Route path="/news" element={<News />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

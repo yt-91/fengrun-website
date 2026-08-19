@@ -6,7 +6,6 @@ const navItems = [
   { to: '/', label: '首页' },
   { to: '/about', label: '关于锋润' },
   { to: '/portfolio', label: '投资领域' },
-  { to: '/team', label: '核心团队' },
   { to: '/news', label: '新闻动态' },
 ]
 

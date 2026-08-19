@@ -229,32 +229,3 @@ export const cases: InvestCase[] = [
     image: './images/track-green.jpg',
   },
 ]
-
-/** 团队——PPT 未提供，以下为结构占位，资料待补充 */
-export interface TeamMember {
-  name: string
-  title: string
-  focus: string
-  bio: string
-  managing?: boolean
-}
-
-export const team: TeamMember[] = [
-  {
-    name: '待补充',
-    title: '创始合伙人',
-    focus: '整体战略 · 基金运营',
-    bio: '合伙人简介资料待补充，建议包含从业背景、代表案例与产业资源。',
-    managing: true,
-  },
-  {
-    name: '待补充',
-    title: '合伙人',
-    focus: '生命科学 · 医疗健康',
-    bio: '合伙人简介资料待补充。',
-    managing: true,
-  },
-  { name: '待补充', title: '投资总监', focus: '先进制造 · 绿色低碳', bio: '成员简介资料待补充。' },
-  { name: '待补充', title: '投资总监', focus: '数字科技 · 低空经济', bio: '成员简介资料待补充。' },
-  { name: '待补充', title: '投后管理', focus: '资源对接 · 管理赋能', bio: '成员简介资料待补充。' },
-]
